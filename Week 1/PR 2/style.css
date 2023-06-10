@@ -1,0 +1,75 @@
+.menubar ul {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	background-color: lightgrey;
+	border: 3px solid black;
+	border-radius: 25px;
+
+}
+
+.menubar li {
+	display: inline-block;
+	padding: 10px;
+	background-color: lightblue;
+	border: 1px solid black;
+}
+
+.menubar a {
+	text-decoration: none;
+	color: black;
+	width: 150px;
+	display: inline-block;
+	padding: 20px 5px;
+	font-size: 15px;
+	text-align: center;
+}
+
+.menubar li:hover {
+	color: white;
+	border: 1px solid red;
+	// background-color: red;
+}
+
+.gambar {
+	background-image: url("foto/milkyway.jpg");
+	padding: 250px;
+	background-size: 45%;
+	margin-top: 15px;
+	margin-left: 0px;
+	width: 1920px;
+	background-repeat: repeat-x;
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	margin-top: -135px;
+	margin-left: -500px;
+}
+
+p {
+	text-indent: 50px;
+}
+
+.par1 {
+	border: 1px solid black;
+	border-radius: 15px;
+	padding: 5px;
+}
+
+h2 {
+	color: blue;
+}
+
+img {
+	width: 20%;
+	height: 25%;
+	margin: 15px;
+}
+
+img:hover{
+	width: 25%;
+	height: 45%;
+}

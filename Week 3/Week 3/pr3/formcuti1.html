@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formcuti</title>
+</head>
+<body>
+	<div class="containform">
+		<h2>Form Ijin Cuti</h2>
+		<form>
+    		<label for="name">Name</label>
+    		<input type="text" id="name" name="name" placeholder="Your name..">
+    	</form>
+    		<div id="containbranch">
+    		<label for="branch">Branch</label>
+			<form class="branch">
+ 				 <select id="branch" name="branch">
+ 				 	<option value="a">A</option>
+ 				 	<option value="b">B</option>
+ 				 	<option value="ab">AB</option>
+ 				 </select>
+			</form>
+			</div>
+			<div id="containcso">
+			<label for="cso">CSO</label>
+			<form>
+				 <select id="cso" name="cso" placeholder="Choose CSO">
+ 					 <option value="c">C</option>
+ 					 <option value="d">D</option>
+ 					 <option value="e">E</option>
+ 				 </select>			 
+ 			</form>
+ 			<form>
+ 				<label for="devision">Devision</label>
+    			<input type="text" id="devision" name="devision" placeholder="Devision">
+ 			</form>
+ 			<form>
+ 				<label for="work">Work Since</label>
+    			<input type="text" id="work" name="work" placeholder="Work Since">
+ 			</form>
+ 			<div id="containdate">
+    			<label for="startdate">Start Date</label>
+				<form class="date">
+					<input type="date" id="startdate" name="startdate"> 
+				</form>
+			</div>
+			<div id="enddate">
+			<label for="end">End Date</label>
+			<form>
+				<input type="date" id="end" name="end"> 
+			</form>			 
+ 			</div>
+ 			<div id="dateduration">
+ 				<label for="duration">Duration Off</label>
+ 				<form>
+  					<input type="number" id="duration" name="duration" min="1" max="12" placeholder="Max 12 hari">
+ 				</form>
+ 			</div>
+ 			<div id="workon">
+			<label for="on">Work on</label>
+			<form>
+				<input type="date" id="on" name="on"> 
+			</form>			 
+ 			</div>
+ 			<div class="reason">
+ 				<label for="reason">Reason of Absent</label>
+ 				<form>
+ 					<textarea name="reason" rows="5" cols="75" placeholder="Reason of Absent"></textarea>
+  					<br><br>
+ 					<input type="submit">
+				</form>
+ 			</div>
+	</div>
+
+</body>
+</html>

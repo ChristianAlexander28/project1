@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+</head>
+<body>
+	<input type="text" id="value">
+	<button id="submit">submit</button>
+	<a href="" id="website">ini link</a>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script>
+		$("#submit").click(function() {
+			$("#website").attr("href", $("#value").val())
+		})
+	</script>
+	</body>
+
+
+</html>

@@ -1,0 +1,79 @@
+p {
+	margin-top: -25px;
+	margin-bottom: 20px;
+}
+
+body {
+	margin-left: 1em;
+	margin-right: 1em;
+	font-family: arial;
+}
+
+/*.menu {
+	border: 1px solid black;
+	padding: 20px 5px;*/
+}
+nav {
+	text-align: center;
+	display: Inline;
+	padding: 0px;
+	margin: 0px;
+}
+nav a {
+	text-decoration: none;
+	border: 1px solid black;
+	margin: 10px;
+	margin-left: 0px;
+	padding: 10px 30px;
+	background-color: orange;
+	color: white;
+}
+
+nav a:hover {
+	color: darkred;
+	border: 1px solid darkred;
+}
+
+.gambar {
+	display: inline-block;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.gambar img {
+	width: 100%;
+
+}
+.porto {
+	display: inline;
+}
+
+.porto img {
+	width: 400px;
+	padding: 2px;
+	border: 3px solid black;
+	margin-top: -15px;
+}
+footer {
+	margin: 0px;
+}
+ul {
+	padding: 0px;
+}
+li {
+	list-style: none;
+	display: inline-block;
+	border-right: 1px solid black;
+	padding-right: 5px;
+	padding-left: px;
+
+}
+.kontak {
+	border-right: none;
+}
+
+.deskripsi li {
+	display: block;
+	text-align: right;
+	border-right: none;
+}

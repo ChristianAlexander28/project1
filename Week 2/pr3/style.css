@@ -1,0 +1,134 @@
+body {
+	background-color: gray;
+	margin: 0%;
+}
+
+span {
+	margin-top: 8px;
+	margin-left: 1em;
+	float: left;
+	position: relative;
+	font-size: 14px;
+	color: #62ddff;
+}
+
+.navgambar img {
+	float: left;
+	margin-left: 1em;
+}
+
+.navgambar {
+	overflow: hidden;
+	background-color: #333;
+	display: block;
+	position: fixed;
+	width: 100%;
+	top: 0;
+}
+
+.navigasi {
+	display: block;
+	float: left;
+	margin-left: 1%;
+	margin-top: 0;
+}
+
+.navigasi a {
+	padding: 15px 15px;
+	margin: 0px 15px;
+	float: left;
+	text-decoration: none;
+	color: white;
+}
+
+.navigasi a:hover {
+  background-color: gray;
+  color: blue;
+}
+
+header {
+		margin-top: 4%;
+}
+.konten {
+	background-color: #333;
+	margin: 15px 4.5%;
+	padding: 0.3% 5px;
+	color: white;
+}
+
+.konten h2{
+	color: #62ddff;
+}
+
+.konten p{
+	font-size: 17px;
+}
+
+#judul{
+	 border-bottom: 2px solid black;
+  padding: 1px 10px;
+  background-color: #263238;
+  color: #62ddff;
+}
+
+#judul2 {
+	border-bottom: 2px solid black;
+  padding: 1px 10px;
+  background-color: #263238;
+  color: #62ddff;
+}
+}
+
+.konten2 h2 {
+	  padding-left: 0.3%;
+	  color: blue;
+}
+
+.day {
+	  background-color: #263238;
+	  padding: 10px 10px;
+	  border: 1px solid black;
+	  margin: 1% 10px;
+}
+
+.tombol {
+	text-align: center;
+}
+
+.button1 {
+	border: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;	
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+div {
+	display: block;
+}
+
+.tombol: hover {
+ background-color: red;
+}
+
+.kompetisi {
+		background-color: #263238;
+	  padding: 10px 10px;
+	  border: 1px solid black;
+	  margin: 1% 10px;
+}
+
+.pubg1 {
+		float: left;
+    width: 320px;
+    max-width: 100%;
+
+    margin: 20px 10px;
+}
+
+.isikonten {
+	padding-left: 345px;
+}

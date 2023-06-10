@@ -1,0 +1,21 @@
+		.master {
+			color: blue;
+			text-decoration: none;
+		}
+		.master:hover {
+			color: red;
+			text-decoration: underline;
+		}
+
+		.transaksi {
+			color: red;
+			font-weight: bold;
+		}
+		.transaksi:hover {
+			color: blue;
+			text-decoration: none;
+			font-weight: unset;
+		}
+		#report:hover {
+			font-style: italic;
+		}

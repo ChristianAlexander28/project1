@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+	<style type="text/css">
+		.red-color { background: red; }
+		.yellow-color { background: yellow; }
+		.green-color { background: green; }
+		div { margin: 0 auto; width: 150px; height: 150px; }
+	</style>
+</head>
+<body>
+	<div id="mybox" class="red-color" current="red"></div>
+	<p style="text-align: center;">
+		<button id="mybutton">Change Color</button>
+	</p>
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script> 
+//…. Your script should be here
+// if current div color is red and you click the button, it will change into yellow
+		$("#mybutton").click(function() {
+			console.log($("#mybox").css("background-color"))
+			if($("#mybox").css("background-color") == "rgb(255, 0, 0)"){
+					$("#mybox").removeClass("red-color");
+					$("#mybox").addClass("yellow-color");
+				}
+
+// if current div color is yellow and you click the button, it will change into green
+		else if ($("#mybox").css("background-color") == "rgb(255, 255, 0)") {
+					$("#mybox").removeClass("yellow-color");
+					$("#mybox").addClass("green-color");
+				}
+
+// if current div color is gree and you click the buttonn, it will change into red
+		else
+				$("#mybox").removeClass("green-color");
+				$("#mybox").addClass("red-color");
+	})
+	</script>
+</body>
+</html>

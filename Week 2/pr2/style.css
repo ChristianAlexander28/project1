@@ -1,0 +1,181 @@
+.navigasi img {
+	width: 60px;
+	height: 60px;
+	margin: 0px 20px;
+	float: left;
+	padding:10px 10px;
+	background-color: white;
+}
+
+
+.navigasi {
+/*	display: inline;*/
+	display: inline-block;
+	background-image: url("foto/bmw1.jpg") ;
+	background-size: cover;
+	height: 720px;
+	width: 1280px;
+	background-repeat: no-repeat;
+}
+
+.navigasi a{
+	color: white;
+	text-decoration: none;
+	margin: 35px 0px;
+	padding: 0px 25px;
+	padding-bottom: 40px;
+	position: relative;
+	float: left;
+/*	border-bottom: 2px solid white;*/
+}
+
+.bandingkan {
+	float: right !important;
+	font-size: 9pt;
+}
+
+.navigasi a:hover {
+	border-bottom: 2px solid blue;
+	
+}
+.navigasi2 {
+	height: 50px;
+}
+.navigasi2 a{
+	color: black;
+	text-decoration: none;
+	padding: 15px;
+	float: left;
+	position: relative;
+	margin: 10px 0px 0px 75px;
+	border: 1px solid #262626;
+}
+
+.navigasi2 a:hover {
+	border: 2px solid #262626;
+
+}
+.navigasi2a h4 {
+	display: inline;
+	float: right;
+	position: relative;
+	margin: auto 50px auto 50px;
+	margin-right: 25px;
+	padding: 26px 0px 15px 0px;
+}
+
+.like {
+	margin-right: 200px !important;
+}
+
+.navigasi2a h4:hover {
+	text-decoration: underline;
+}
+
+body {
+	margin: 0px;
+	font-family: arial, serif;
+}
+
+#tulisan {
+	color: white;
+	margin-top: -535px;
+	margin-left: 130px;
+	margin-bottom: 435px;
+}
+
+h1{
+	margin-bottom: 0px;
+}
+
+button {
+	padding: 10px 10px;
+	margin-top: 3px;
+}
+
+.gambar img {
+	height: 450px;
+	width: 650px;
+	object-fit: cover;
+	position: relative;
+	float: left;
+	left: 40px;
+	top: 20px;
+}
+
+h2 {
+	display: inline;
+	float: right;
+	width: 500px;
+	position: relative;
+	font-weight: unset;
+	top: 0px;
+	left: -50px;
+}
+
+.new {
+	margin-left: 734px;
+}
+.new h3 {
+	display: inline;
+	float: right;
+	position: relative;
+	font-weight: unset;
+	left: -440px;
+	top: -20px;
+	font-size: 20px;
+}
+
+.new p{
+	position: relative;
+	padding: 65px 0px 0px 0px;
+	top: 30px;
+	left: -2px;
+	font-size: 14px;
+	height: 50px;
+}
+
+.multimedia h3 {
+
+	float: right;
+	position: relative;
+	font-weight: unset;
+	left: -272px;
+	top: -20px;
+	font-size: 20px;
+}
+
+.multimedia p {
+	position: relative;
+	float: left;
+	top: -65px;
+	left: 81px;
+	margin-top: 30px;
+	font-size: 14px;
+	height: 50px;
+}
+
+.optional h3 {
+
+	float: right;
+	position: relative;
+	font-weight: unset;
+	left: -402px;
+	top: -20px;
+	font-size: 20px;
+}
+
+.optional p {
+	position: relative;
+	float: left;
+	top: -65px;
+	left: 81px;
+	margin-top: 0px;
+	font-size: 14px;
+	height: 50px;
+}
+
+.deskripsi {
+	position: relative;
+	top: 125px;
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+</head>
+<body>
+	<select id="cbochoice">
+		<option value="">Pick One Fruit...</option>
+		<option value="1">Mango</option>
+		<option value="2">Orange</option>
+		<option value="3">Melon</option>
+		<option value="4">Other Fruit</option>
+	</select>
+
+	<input type="text" id="txtfruit" style="display: none;">
+	<script src="http://code.jquery.com/jquery.js"></script>
+	<script>
+		$("#cbochoice").change(function() {
+			console.log($("#cbochoice").val());
+			if ($("#cbochoice").val() == 4) {
+				$("#txtfruit").show();
+				$("#txtfruit").focus();
+			}	
+			else {
+				$("#txtfruit").hide();
+				$("#txtfruit").val("");
+			}
+		});
+	</script>
+</body>
+</html>

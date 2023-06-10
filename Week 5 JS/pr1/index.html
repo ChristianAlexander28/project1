@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+	<style type="text/css">
+
+		.green-color { background: lightgreen; }
+
+		h2 {
+			text-align: center;
+		}
+
+		label {
+			display: block;
+			font-weight: bold;
+		}
+
+		select {
+			width: 30%;
+			padding: 16px 5px;
+			border-radius: 4px;
+			background-color: white;
+			border: 1px solid blueviolet;
+			margin: 8px 0;
+		}
+		input[type=text] {
+			width: 30%;
+			padding: 16px 5px;
+			border-radius: 4px;
+/*			background-color: white;*/
+			border: 1px solid blueviolet;
+			margin: 8px 0;
+		}
+
+		#hitung {
+			padding: 25px 100px;
+			background-color: blue;
+			color: white;
+		}
+
+		#button {
+			text-align: center;
+		}
+
+	</style>
+</head>
+<body>
+	<h2>Beli Permen</h2>
+	
+		<div id="jenispermen">
+			<label for="permen">Jenis Permen</label>
+			<select name="permen" id="permen">
+				<option value="12000">Permen Cupacup Rp. 12.000</option>
+				<option value="20000">Permen Harbo Rp. 20.000</option>
+				<option value="5000">Permen Sugus Rp. 5000</option>
+			</select>
+		</div>
+
+		<div id="kolomuang">
+			<label for="uang">Jumlah Uang</label>
+			<input type="text" id="uang" name="uang" value="" placeholder="0">
+		</div>
+
+		<div id="kembalian">
+			<label for="kembalianuang">Kembalian Uang</label>
+			<input type="text" id="kembaliuang" value="" class="" name="kembaliuang" placeholder="0" disabled>
+		</div>
+
+		<div id="button">
+			<button id="hitung">Hitung</button>
+		</div>
+
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script>
+			
+
+			$("#hitung").click(function(){
+				
+				var $j = parseInt($("#permen").val());
+			 	var $u = parseInt($("#uang").val());
+			 	console.log([$j,$u,$("#uang").val()])
+
+				if ($("#uang").val() == 0) {
+					alert("Masukan uang");
+				}
+				else if ($("#uang").val() < $j) {
+					alert("Uang anda kurang " + ($j-$u));
+					// $("#kembaliuang").val($j-$u);
+				}
+				else {
+					$("#kembaliuang").val($u-$j);
+					$("#kembaliuang").addClass("green-color");
+				}
+			});
+				
+		</script>
+</body>
+</html>

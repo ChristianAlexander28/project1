@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>index</title>
+	<style type="text/css">
+		.red-color { background: red; }
+		.yellow-color { background: yellow; }
+		.green-color { background: green; }
+		div { margin: 0 auto; width: 150px; height: 150px; }
+	</style>
+</head>
+<body>
+	<div id="mybox" class="red-color" ></div>
+		<p style=‘text-align: center;’>
+			<button id="buttonred">Change Color to Red</button>
+			<button id="buttonyellow">Change Color to Yellow</button>
+			<button id="buttongreen">Change Color to Green</button>
+		</p>
+		<script src="http://code.jquery.com/jquery.js"></script>
+		<script>
+		//.... Your script should be here
+		// when you click buttonred button, the div will be backgrounded into red
+				$("#buttonred").click(function(){
+				$("#mybox").attr("class","");
+				$("#mybox").addClass("red-color");
+
+				// $("#mybox").removeClass("yellow-color");
+				// $("#mybox").removeClass("green-color");
+			})
+		// when you click buttonyellow button, the div will be backgrounded into yellow
+				$("#buttonyellow").click(function(){
+				$("#mybox").attr("class","");
+				$("#mybox").addClass("yellow-color");
+				// $("#mybox").removeClass("red-color");
+				// $("#mybox").removeClass("green-color");
+			})
+		// when you click buttongreen button, the div will be backgrounded into green
+				$("#buttongreen").click(function(){
+				$("#mybox").addClass("green-color");
+				$("#mybox").removeClass("red-color");
+				$("#mybox").removeClass("yellow-color")
+			})
+		</script>
+</body>
+</html>

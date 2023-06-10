@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="style.css"
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formcuti</title>
+</head>
+<body>
+	<div class="containform">
+		<h2>Form Ijin Cuti</h2>
+		<form>
+			<div class="name1">
+    		<label for="name">Name</label>
+    		<input type="text" id="name" name="name" placeholder="Your name..">
+    		</div>
+    		<div id="containbranch">
+    			<label class="branch1" for="branch">Branch</label>
+ 					 <select id="branch" name="branch">
+ 				 		<option value="a">A</option>
+ 				 		<option value="b">B</option>
+ 				 		<option value="ab">AB</option>
+ 					 </select>
+			</div>
+			<div id="containcso">
+			<label class="cso1" for="cso">CSO</label>
+				 <select id="cso" name="cso" placeholder="Choose CSO">
+ 					 <option value="c">C</option>
+ 					 <option value="d">D</option>
+ 					 <option value="e">E</option>
+ 				 </select>	
+ 			</div>
+ 			<div id="containdev">	 
+ 			<label for="devision">Devision</label>
+    			<input type="text" id="devision" name="devision" placeholder="Devision">
+ 			<label for="work">Work Since</label>
+    			<input type="text" id="work" name="work" placeholder="Work Since">
+    		</div>
+    		<div id="containdate">
+    			<label class="start" for="startdate">Start Date</label>
+					<input type="date" id="startdate" name="startdate"> 
+			</div>
+			<div id="enddate">
+			<label class="end1" for="end">End Date</label>
+				<input type="date" id="end" name="end"> 
+ 			</div> 	
+
+ 			<div id="durationwork">		
+ 				<div id="dateduration">
+ 					<label class="off" for="duration">Duration Off</label>
+  						<input type="number" id="duration" name="duration" min="1" max="12" placeholder="Max 12 hari">
+ 				</div>
+ 				<div id="workon">
+				<label class="workon1" for="on">Work on</label>
+					<input type="date" id="on" name="on"> 
+ 				</div>
+			</div>
+ 		</form>	
+ 			
+ 			
+
+ 			<!-- <div class="reason">
+ 				<label for="reason">Reason of Absent</label>
+ 					<textarea name="reason" rows="5" cols="50" placeholder="Reason of Absent"></textarea>
+  					<br><br>
+ 					<input type="submit">
+ 			</div> -->
+	</div>
+
+</body>
+</html>

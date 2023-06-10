@@ -1,0 +1,29 @@
+body {
+	background: grey;
+
+}
+
+.containinput {
+	background: white;
+	padding: 10px 10px;
+
+
+}
+
+legend {
+	color: whitesmoke;
+}
+
+fieldset {
+/*	background-color: white;*/
+	padding: 5px 10px;
+	margin: 5% 30%;
+	text-align: left;
+	font-family: arial, times new roman, serif;
+}
+
+select {
+	display: block;
+	margin-top: 10px;
+	margin-bottom: 19px;
+}

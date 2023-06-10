@@ -1,0 +1,195 @@
+body {
+	margin-left: 10%;
+	margin-right: 10%;
+
+}
+#nav{
+	text-align: center;
+	background-color: lightblue;
+}
+
+h1 {
+	margin-bottom: 0;
+}
+
+p {
+	margin-top: 5px;
+	overflow: auto;
+}
+
+#menu a{
+	
+	padding: 10px 5px;
+	background: aliceblue;
+	border: 1px solid black;
+	width: 4%;
+	display: inline-block;
+}
+
+img{
+	width: 97%;
+	height: 75%;
+}
+
+.makanan {
+  	float: left;
+  	width: 33.33%;
+  	overflow: auto;
+}
+
+button {
+	float: right;
+	position: relative;
+	right: 15px;
+}
+
+hr {
+	position: relative;
+	top: 10px;
+}
+
+#information {
+	clear: both;
+}
+
+.info{
+	float: left;
+  	padding: 10px;
+}
+
+.koki {
+	margin: 20px auto;
+	width: 33%;
+	display: inline-block;
+	float: left;
+}
+
+#chef {
+	width: 65%;
+	border: 1px solid black;
+	height: 0%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.about {
+	margin-left: 325px;
+}
+
+#fav {
+	border: 1px solid black;
+	margin-left: 10px;
+  	margin-top: 20px;
+  	width: 30%;
+}
+
+.gambarMakanan {
+	width: 25%;
+	height: 25%;
+	display: inline-block;
+	float: left;
+}
+
+.aboutMakanan {
+	margin-left: 125px;
+	margin-top: 10px; !important
+}
+
+h4 {
+	margin-bottom: 0;
+}
+
+footer {
+	clear: both;
+	padding: 10px 0;
+	background-color: lightblue;
+	height: 180px;
+}
+
+#news {
+	width: 25%;
+	padding: 10px 10px;
+	display: inline-block;
+	float: left;
+}
+
+input[type=email] {
+	width: 98%;
+	height: 20px;
+	display: block;
+
+}
+
+input[type=button] {
+	width: 90px;
+	height: 30px;
+}
+
+.flex-end {
+	padding: 10px 0;
+	display: flex;
+	justify-content: flex-end;
+}
+
+#follow {
+	text-align: center;
+	position: relative;
+	top: 50px;
+	left: 250px;
+}
+
+#container {
+	display: none;
+}
+@media screen and (max-width: 600px) {
+  	#menu {
+    	display: none;
+	}
+
+	#container {
+		display:inline-block;
+		display: flex;
+		justify-content: end;
+	}
+
+	.makanan {
+		width: 100%;
+		display: block ; 
+	}
+
+	#chef {
+		width: 100%;
+	}
+
+	.koki {
+		display: block;
+		width: 100%;
+		height: 100%;
+		float: none;
+	}
+
+	.about{
+		margin-left: 0;
+
+	}
+
+	#fav {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 15px;
+	}
+
+	#news {
+		width: 80%;
+	}
+
+	#follow {
+		display: none;
+	}
+
+	footer{
+		width: 105%;
+	}
+
+}
